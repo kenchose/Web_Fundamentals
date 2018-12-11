@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Basic</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="heading">
+                <h1>JavaScript Basic</h1>
+            </div>
+            <div id="navigation">
+                    <ul class="navlist"><a href="">Home
+                        <li class="navlist"><a href="">JavaScript Overview</li>
+                        <ul>
+                            <li class="navlist"><a href="">Variable Declaration</li>
+                            <li class="navlist"><a href="">Variable Assignment</li>
+                            <li class="navlist"><a href="">Data Type</li>
+                            <li class="navlist"><a href="">Conditionals</li>
+                            <li class="navlist"><a href="">Loops</li>
+                            <li class="navlist"><a href="">Function</li>
+                        </ul>
+                        <li class="navlist"><a href="">Projects</li>
+                        <li class="navlist"><a href="">Assignments</li>
+                        <li class="navlist"><a href="">Quiz</li>
+                    </ul>
+            </div>
+            <div id="description">
+                <h2>JavaScript Basics</h2>
+                <p>JavaScript is a cross-platform, object-oriented scripting language. JavaScript is extremely popular for a variety of reasonss. It is a small
+                and lighweight language allowing maximum flexibility for developers to take it in a bunch of different directions javaScript, lives inside a host 
+                enviornmane (a web browser Node server), it can be connected to the objecrta of wthese envoirnmnts to provide programmatic control over them.
+                </p>
+                <ul>
+                    <li><span class="blue">Variable Decleration</span> JavaScript variables are containersa for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a 
+                    variable holds a value. All javaScipt variables must be identified with unique names. These unique names are called identifiers.<span class="purple">var x;</span></li>
+                    <li><span class="blue">Viariable Assignment</span>Assignment operators assign values to JavaScript variables - our cup can now have cofffee poured in it, giving our aviagble a value to holkd. the = assignment operator assigns a value to a variable.<span class="purple">var x = 10;</span></li>
+                    <li><span class="blue">Data Types</span>Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript
+                    preimitives: Bookean -<span class="purple">true</span> or <span class="purple">false;</span>null - <span class="purple"<null</span>aka nothing; Number - <span class="purple"<42</span> or <span class="purple"<3.14123</span> String - <span class="purple"<"Coding Dojo Rocks!";</span> Array - <span class="purple"<[1, 'Doding', 2, 'Dojo'];</span> and Object - <span class="purple"<{first_name: 'Jane', last_name: 'Doe'}</span></lis>
+                    <li><span class="blue">Conditionls</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <span class="purple">if</span> been i too scrambled it to make a <span class="purple">else</span> specimen book. It has suhe leap into electronic typesett. It was popularised in the 1960s witaining Lorem Ipsum passages, lishing software like Aldus PageMaker including versions of Lorem Ipsum.</li>
+                    <li><span class="blue">Loops</span> It is a long established fact that a reader wil 'Content here, content here', making iese Lorem Ipsum as their default model text, and a search</li>
+                    <li><span class="blue">Function</span> Contrary to popular belief, Lorem Ipsum is not si0 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, wr</li>
+                </ul>
+            </div>
+            <div id="url">
+                <p id="useful"><a>For more usefull information check out this url:</a><a href="">JavaScript</a></p>
+            </div>
+        </div>
+    </body>
+</html>
