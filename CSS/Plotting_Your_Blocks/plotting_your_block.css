@@ -1,0 +1,41 @@
+#wrapper {
+    width: 996px;
+    height: 545px;
+    background-color: gray;
+    margin: auto;
+    padding: 25px;
+}
+#greenbox {
+    background-color: green;
+    height: 100px;
+    width: auto;
+    display: block;
+}
+#bluebox {
+    background-color: blue;
+    height: 320px;
+    width: 230px;
+    margin-top: 120px;
+    display: inline-block;
+}
+#redbox {
+    background-color: red;
+    height: 415px;
+    width: 740px;
+    margin-left: 255px;
+    display: inline-block;
+}
+.yellowbox {
+    background-color: yellow;
+    height: 200px;
+    width: 214px;
+    margin: 15px;
+    display: inline-block;
+}
+#purplebox {
+    background-color: purple;
+    height: 130px;
+    width: 710px;
+    margin: auto;
+    margin-top: 10px;
+}
