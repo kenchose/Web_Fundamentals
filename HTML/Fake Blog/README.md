@@ -1,0 +1,1 @@
+This assignment was created for the purpose of practicing our html skills along with making our very first blog post
