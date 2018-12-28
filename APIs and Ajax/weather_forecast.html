@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Weather Forecast</title>
+    <script type="text/javascript">
+    $(document).ready(() => {
+        $("form").submit(() => {
+            let weather = $("#location").val();
+            $.get("http://api.openweathermap.org/data/2.5/weather?q=" + weather + "&units=imperial&&appid=70cbd772aece7062623df04bc1fd80bc", (res) => {
+                $("#city-forecast h1").html(`Weather for ${res.name}`);
+                $("#city-forecast p").html(`Temperature: ` + Math.round(res.main.temp) +`℉ <br>
+                Min Temp: ` + Math.round(res.main.temp_min) + `℉ <br>
+                Max Temp: ` + Math.round(res.main.temp_max) + `℉ <br>
+                Wind: ${res.wind.speed} mph <br>`
+                )
+            }, "json");
+            return false;
+        })
+    })
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Weather Forecast</h1>
+        <form>
+            <label for="search">Search by city:</label>
+            <input type="text" id="location">
+            <input type="submit" value="Search the weather">
+        </form>
+        <div id="city-forecast">
+            <h1></h1>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html> 
